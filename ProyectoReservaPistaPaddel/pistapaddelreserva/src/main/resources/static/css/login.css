@@ -1,0 +1,43 @@
+body {
+    background: url('') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.bg-gradient-primary {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.form-control-user {
+    border-radius: 10px;
+    height: calc(2.4rem + 2px);
+    padding: 0.75rem 1rem;
+}
+
+.btn-user {
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+}
+
+.text-gray-900 {
+    color: #3a3b45 !important;
+}
+
+.bg-login-image {
+    background: url('');
+    background-position: center;
+    background-size: cover;
+}
+
+#mitadParaImagen {
+        background-image: url('/img/escudoraiem.jpeg');/*  o .jpeg */
+        background-size: contain; /*  Esto asegura que la imagen cubra todo el contenedor */
+        background-position: center; /* Centra la imagen en el contenedor  */
+        background-repeat: no-repeat;  /*Evita que la imagen se repita*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
