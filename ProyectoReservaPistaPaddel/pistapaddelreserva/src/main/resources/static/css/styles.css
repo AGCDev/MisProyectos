@@ -117,6 +117,33 @@
    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
  }
 
+ .footer {
+   background-color: #000; /* Fondo negro */
+   color: #fff;            /* Letras blancas */
+   padding: 30px 0;        /* Espaciado superior e inferior aumentado */
+   position: fixed;        /* Fijar el footer en la parte inferior */
+   bottom: 0;              /* Alinea el footer al fondo */
+   width: 100%;            /* Asegura que el footer ocupe todo el ancho de la página */
+ }
+
+ .footer a {
+   color: #fff; /* Enlaces en blanco */
+   text-decoration: none; /* Sin subrayado */
+ }
+
+ .footer a:hover {
+   text-decoration: underline; /* Subrayado al pasar el ratón */
+ }
+
+ .footer .container {
+   max-width: 100%; /* Asegura que el contenido del footer no se desborde */
+   text-align: center; /* Centra el texto en el contenedor */
+ }
+
+ .footer p {
+   margin-bottom: 0; /* Elimina el margen inferior del párrafo */
+ }
+
  hr {
    margin: 1rem 0;
    color: inherit;
